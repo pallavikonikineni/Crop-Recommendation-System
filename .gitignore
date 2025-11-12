@@ -1,5 +1,14 @@
+# Ignore virtual environment and cache
 venv/
 __pycache__/
-attached_assets/
 *.pyc
+
+# Ignore Streamlit, local configs, and temp assets
+attached_assets/
+.streamlit/
+.local/
+.replit
+
+# Ignore OS and IDE files
 .DS_Store
+.vscode/
